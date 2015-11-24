@@ -5,6 +5,8 @@ var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 
+var config = require('./config');
+
 var routes = require('./routes/index');
 var users = require('./routes/users');
 
@@ -20,8 +22,17 @@ app.use(logger('dev'));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
-app.use(express.static(path.join(__dirname, 'public')));
 
+// the resources router in page
+app.use('/public', express.static(path.join(__dirname, 'public'), {
+  maxAge: config.staticExpire
+}));
+
+app.use('/html', express.static(path.join(__dirname, 'views/static'), {
+  maxAge: config.staticExpire
+}));
+
+// controller manager
 app.use('/', routes);
 app.use('/users', users);
 
