@@ -28,6 +28,10 @@ app.use('/public', express.static(path.join(__dirname, 'public'), {
   maxAge: config.staticExpire
 }));
 
+app.use('/bower_components', express.static(path.join(__dirname, 'bower_components'), {
+  maxAge: config.staticExpire
+}));
+
 app.use('/html', express.static(path.join(__dirname, 'views/static'), {
   maxAge: config.staticExpire
 }));
