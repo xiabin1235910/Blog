@@ -2,3 +2,8 @@
 node_modules/
 .idea/
 bower_components/
+.idea/workspace.xml
+.idea/vcs.xml
+.idea/jsLibraryMappings.xml
+.idea/workspace.xml
+.idea/Blog.iml

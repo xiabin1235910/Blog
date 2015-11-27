@@ -22,8 +22,6 @@
     "bootstrap-datepicker": "~1.5.0",
     "owl.carousel": "~2.0.0-beta.3",
     "moment": "~2.10.6",
-    "daterangepicker": "~1.4.2",
-    "jvectormap": "~2.0.4",
     "rickshaw": "~1.5.1",
     "morris.js": "morrisjs#~0.5.1",
     "scrollToTop": "~1.0.3",
@@ -34,6 +32,7 @@
     "blueimp-gallery": "~2.16.0",
     "codemirror": "~5.9.0",
     "nvd3": "~1.8.1",
-    "summernote": "~0.6.16"
+    "summernote": "~0.6.16",
+    "bootstrap-daterangepicker": "~2.1.13"
   }
 }

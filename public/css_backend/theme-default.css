@@ -15,6 +15,7 @@
 @import "/bower_components/rickshaw/src/css/legend.css";
 @import "/public/css_backend/dropzone/dropzone.css";
 @import "/public/css_backend/animate/animate.min.css";
+@import "/bower_components/jvectormap/jquery-jvectormap.css";
 
 
 /* PREDEFINED CLASSES */
@@ -6168,45 +6169,45 @@ input.ui-editRangeSlider-inputValue {
 }
 /* END Slider */
 /* jVectorMaps */
-.jvectormap-label {
-  position: absolute;
-  display: none;
-  border: solid 1px #1b1e24;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  border-radius: 3px;
-  background: #1b1e24;
-  color: white;
-  font-family: sans-serif, Verdana;
-  font-size: smaller;
-  padding: 3px;
-  z-index: 15;
-  opacity: 0.9;
-  filter: alpha(opacity=90);
-}
-.jvectormap-zoomin,
-.jvectormap-zoomout {
-  position: absolute;
-  left: 10px;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  border-radius: 3px;
-  background: #1b1e24;
-  padding: 3px;
-  olor: white;
-  width: 16px;
-  height: 16px;
-  cursor: pointer;
-  line-height: 10px;
-  text-align: center;
-  color: #FFF;
-}
-.jvectormap-zoomin {
-  top: 10px;
-}
-.jvectormap-zoomout {
-  top: 30px;
-}
+/*.jvectormap-label {*/
+  /*position: absolute;*/
+  /*display: none;*/
+  /*border: solid 1px #1b1e24;*/
+  /*-webkit-border-radius: 3px;*/
+  /*-moz-border-radius: 3px;*/
+  /*border-radius: 3px;*/
+  /*background: #1b1e24;*/
+  /*color: white;*/
+  /*font-family: sans-serif, Verdana;*/
+  /*font-size: smaller;*/
+  /*padding: 3px;*/
+  /*z-index: 15;*/
+  /*opacity: 0.9;*/
+  /*filter: alpha(opacity=90);*/
+/*}*/
+/*.jvectormap-zoomin,*/
+/*.jvectormap-zoomout {*/
+  /*position: absolute;*/
+  /*left: 10px;*/
+  /*-webkit-border-radius: 3px;*/
+  /*-moz-border-radius: 3px;*/
+  /*border-radius: 3px;*/
+  /*background: #1b1e24;*/
+  /*padding: 3px;*/
+  /*color: white;*/
+  /*width: 16px;*/
+  /*height: 16px;*/
+  /*cursor: pointer;*/
+  /*line-height: 10px;*/
+  /*text-align: center;*/
+  /*color: #FFF;*/
+/*}*/
+/*.jvectormap-zoomin {*/
+  /*top: 10px;*/
+/*}*/
+/*.jvectormap-zoomout {*/
+  /*top: 30px;*/
+/*}*/
 /* END jVectorMaps */
 /* tagsinput */
 div.tagsinput {
